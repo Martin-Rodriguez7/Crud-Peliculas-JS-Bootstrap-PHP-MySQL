@@ -16,7 +16,7 @@
                     <form action="eliminar.php" method="POST">
                        <input type="hidden" name="id" id="id">
                     
-                        <button type="button" class="btn btn-secondary py-2" data-dismiss="modal"><i class="fa-solid fa-xmark"></i> Cerrar</button>
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-secondary py-2" data-dismiss="modal"><i class="fa-solid fa-xmark"></i> Cerrar</button>
                         <button type="submit" class="btn btn-danger py-2"> <i class="fa-regular fa-trash-can"></i> Eliminar</button>
                         
                     
